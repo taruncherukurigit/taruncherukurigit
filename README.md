@@ -16,7 +16,8 @@ A fictional parent company, real hardware. Three divisions live so far, each one
 Segmented enterprise network — FortiGate 60E, Cisco 3560E/1921, 4 VLANs, SSL-VPN, RIPv2 branch routing, Prometheus/Grafana monitoring, a live-tested attack simulation. 21/21 build parts complete.
 
 **[Cherwood Network Solutions](https://github.com/taruncherukurigit/network-automation-toolkit)** — [Pages mirror](https://taruncherukurigit.github.io/network-automation-toolkit/)
-Unattended Python/Netmiko automation — nightly config backup, Git version history, and drift detection across the Cherwood Health devices. Includes root-causing a 12-year-old, still-open Paramiko/Cisco IOS SSH bug.
+**[Cherwood Network Solutions](https://github.com/taruncherukurigit/network-automation-toolkit)** — [Pages mirror](https://taruncherukurigit.github.io/network-automation-toolkit/) · [Live topology map](https://netmap.tarunc.com)
+Unattended Python/Netmiko automation — nightly config backup, Git version history, drift detection, and LLDP-based topology discovery across the Cherwood Health devices, reconciling Cisco IOS and FortiOS's completely different neighbor-discovery formats. Includes root-causing a 12-year-old, still-open Paramiko/Cisco IOS SSH bug.
 
 **[Packetgeist](https://github.com/taruncherukurigit/plainsboro-library-survey)** — [Pages mirror](https://taruncherukurigit.github.io/plainsboro-library-survey/)
 Passive 802.11 site survey of a three-storey public library — 67 measurement points, 1,523 observations, 8 access points characterized. Coverage was never the problem; channel planning was.
