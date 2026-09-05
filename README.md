@@ -22,8 +22,6 @@ Unattended Python/Netmiko automation — nightly config backup, Git version hist
 **[Packetgeist](https://github.com/taruncherukurigit/plainsboro-library-survey)** — [Pages mirror](https://taruncherukurigit.github.io/plainsboro-library-survey/)
 Passive 802.11 site survey of a three-storey public library — 67 measurement points, 1,523 observations, 8 access points characterized. Coverage was never the problem; channel planning was.
 
-**Next up:** Automated Topology Discovery (CDP/LLDP + Graphviz/networkx), part of Cherwood Network Solutions.
-
 ---
 
 ### Stack
