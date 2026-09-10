@@ -8,7 +8,7 @@ Portfolio: [taruncherukurigit.github.io/portfolio-page](https://taruncherukurigi
 ---
 
 ### Cherwood Corporation — a multi-division network engineering portfolio
-A fictional parent company, real hardware. Four divisions live so far, each one built end-to-end and documented honestly, including the bugs.
+A fictional parent company, real hardware. Five divisions live so far, each one built end-to-end and documented honestly, including the bugs.
 
 **[Cherwood Health](https://cherwood.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/cherwood-health) · [Pages mirror](https://taruncherukurigit.github.io/cherwood-health/)
 Segmented enterprise network — FortiGate 60E, Cisco 3560E/1921, 4 VLANs, SSL-VPN, RIPv2 branch routing, Prometheus/Grafana monitoring, a live-tested attack simulation. 21/21 build parts complete.
@@ -18,6 +18,9 @@ Unattended Python/Netmiko automation — nightly config backup, Git version hist
 
 **[Cherwood Financial](https://failover.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/hsrp-failover-lab) · [Pages mirror](https://taruncherukurigit.github.io/hsrp-failover-lab/)
 A real two-switch HSRP failover pair on physical Cisco 3560E hardware, verified against an actual power-pull failure test — not a config toggle. Explicit priorities, tuned timers, and Spanning Tree deliberately aligned to the HSRP-active switch. Measured failover: originally ~2 seconds by stopwatch, later re-measured at 3.33 seconds from raw packet timestamps (see Packet Capture Casebook below).
+
+**[Cherwood Foundation](https://foundation.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/activedirectory-cherwood) · [Pages mirror](https://taruncherukurigit.github.io/activedirectory-cherwood/)
+Active Directory, 802.1X wireless authentication, and RADIUS-backed SSL-VPN, delivered by Cherwood Network Solutions to a nonprofit client — replacing a shared Wi-Fi password and unmanaged local VPN accounts with one verified identity. AD DS/DNS, an Enterprise CA, NPS acting as RADIUS between the directory and two different client devices (Cisco AP, FortiGate), and an enforced Group Policy, all tested with valid and invalid logins and server-side log proof for each.
 
 **[Packetgeist](https://packetgeist.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/plainsboro-library-survey) · [Pages mirror](https://taruncherukurigit.github.io/plainsboro-library-survey/)
 Passive 802.11 site survey of a three-storey public library — 67 measurement points, 1,523 observations, 8 access points characterized. Coverage was never the problem; channel planning was.
@@ -32,7 +35,7 @@ Four real packet captures tied to specific bugs and design decisions across the 
 ---
 
 ### Stack
-FortiGate · Cisco IOS · HSRP · Wireshark · Python · Netmiko · Git · Flask · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel
+FortiGate · Cisco IOS · Active Directory · NPS/RADIUS · 802.1X · HSRP · Wireshark · Python · Netmiko · Git · Flask · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel
 
 ### Certifications
 CompTIA Network+ · CompTIA Security+ · AWS Certified Cloud Practitioner · CCNA (in progress) · CWNA (in progress)
