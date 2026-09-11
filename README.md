@@ -8,7 +8,7 @@ Portfolio: [taruncherukurigit.github.io/portfolio-page](https://taruncherukurigi
 ---
 
 ### Cherwood Corporation — a multi-division network engineering portfolio
-A fictional parent company, real hardware. Five divisions live so far, each one built end-to-end and documented honestly, including the bugs.
+A fictional parent company, real hardware. Six divisions live so far, each one built end-to-end and documented honestly, including the bugs.
 
 **[Cherwood Health](https://cherwood.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/cherwood-health) · [Pages mirror](https://taruncherukurigit.github.io/cherwood-health/)
 Segmented enterprise network — FortiGate 60E, Cisco 3560E/1921, 4 VLANs, SSL-VPN, RIPv2 branch routing, Prometheus/Grafana monitoring, a live-tested attack simulation. 21/21 build parts complete.
@@ -21,6 +21,9 @@ A real two-switch HSRP failover pair on physical Cisco 3560E hardware, verified 
 
 **[Cherwood Foundation](https://foundation.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/activedirectory-cherwood) · [Pages mirror](https://taruncherukurigit.github.io/activedirectory-cherwood/)
 Active Directory, 802.1X wireless authentication, and RADIUS-backed SSL-VPN, delivered by Cherwood Network Solutions to a nonprofit client — replacing a shared Wi-Fi password and unmanaged local VPN accounts with one verified identity. AD DS/DNS, an Enterprise CA, NPS acting as RADIUS between the directory and two different client devices (Cisco AP, FortiGate), and an enforced Group Policy, all tested with valid and invalid logins and server-side log proof for each.
+
+**[Cherwood Legal](https://legal.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/suricata-siem-lite-lab) · [Pages mirror](https://taruncherukurigit.github.io/suricata-siem-lite-lab/)
+A passive intrusion-detection lab — a dedicated VLAN, a live Suricata sensor running the full Emerging Threats Open ruleset (52,713 signatures) plus two custom rules, and two independently verified detections: a real malware-signature file transfer and a live port scan, both surfaced through a lightweight Flask/SQLite dashboard. Includes root-causing a same-port RSPAN limitation that silently dropped mirrored unicast traffic, and pivoting the sensor to watch Proxmox's own VLAN-aware sub-bridge instead.
 
 **[Packetgeist](https://packetgeist.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/plainsboro-library-survey) · [Pages mirror](https://taruncherukurigit.github.io/plainsboro-library-survey/)
 Passive 802.11 site survey of a three-storey public library — 67 measurement points, 1,523 observations, 8 access points characterized. Coverage was never the problem; channel planning was.
@@ -35,7 +38,7 @@ Four real packet captures tied to specific bugs and design decisions across the 
 ---
 
 ### Stack
-FortiGate · Cisco IOS · Active Directory · NPS/RADIUS · 802.1X · HSRP · Wireshark · Python · Netmiko · Git · Flask · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel
+FortiGate · Cisco IOS · Active Directory · NPS/RADIUS · 802.1X · HSRP · Suricata · Wireshark · Python · Netmiko · Git · Flask · SQLite · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel
 
 ### Certifications
 CompTIA Network+ · CompTIA Security+ · AWS Certified Cloud Practitioner · CCNA (in progress) · CWNA (in progress)
