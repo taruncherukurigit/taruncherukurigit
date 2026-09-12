@@ -14,7 +14,7 @@ A fictional parent company, real hardware. Six divisions live so far, each one b
 Segmented enterprise network — FortiGate 60E, Cisco 3560E/1921, 4 VLANs, SSL-VPN, RIPv2 branch routing, Prometheus/Grafana monitoring, a live-tested attack simulation. 21/21 build parts complete.
 
 **[Cherwood Network Solutions](https://networksolutions.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/network-automation-toolkit) · [Pages mirror](https://taruncherukurigit.github.io/network-automation-toolkit/) · [Live topology map](https://netmap.tarunc.com)
-Unattended Python/Netmiko automation — nightly config backup, Git version history, drift detection, and LLDP-based topology discovery across every managed Cherwood device, reconciling Cisco IOS and FortiOS's completely different neighbor-discovery formats. Includes root-causing a 12-year-old, still-open Paramiko/Cisco IOS SSH bug, plus a fixed-width CLI parsing bug found later when a new switch's longer hostname silently broke a column-based parser.
+Unattended Python/Netmiko automation — nightly config backup, Git version history, drift detection, and LLDP-based topology discovery across every managed Cherwood device, reconciling Cisco IOS and FortiOS's completely different neighbor-discovery formats. Includes root-causing a 12-year-old, still-open Paramiko/Cisco IOS SSH bug, plus a fixed-width CLI parsing bug found later when a new switch's longer hostname silently broke a column-based parser. Extended with a real ServiceNow integration: config drift automatically opens an Incident via the Table REST API, verified end-to-end against a full Change Request approval workflow (New → Assess → Authorize → Scheduled → Implement → Review → Closed).
 
 **[Cherwood Financial](https://failover.tarunc.com)** — [GitHub](https://github.com/taruncherukurigit/hsrp-failover-lab) · [Pages mirror](https://taruncherukurigit.github.io/hsrp-failover-lab/)
 A real two-switch HSRP failover pair on physical Cisco 3560E hardware, verified against an actual power-pull failure test — not a config toggle. Explicit priorities, tuned timers, and Spanning Tree deliberately aligned to the HSRP-active switch. Measured failover: originally ~2 seconds by stopwatch, later re-measured at 3.33 seconds from raw packet timestamps (see Packet Capture Casebook below).
@@ -38,7 +38,7 @@ Four real packet captures tied to specific bugs and design decisions across the 
 ---
 
 ### Stack
-FortiGate · Cisco IOS · Active Directory · NPS/RADIUS · 802.1X · HSRP · Suricata · Wireshark · Python · Netmiko · Git · Flask · SQLite · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel
+FortiGate · Cisco IOS · Active Directory · NPS/RADIUS · 802.1X · HSRP · Suricata · Wireshark · Python · Netmiko · Git · Flask · SQLite · Prometheus · Grafana · Proxmox · nginx · Cloudflare Tunnel · ServiceNow
 
 ### Certifications
 CompTIA Network+ · CompTIA Security+ · AWS Certified Cloud Practitioner · CCNA (in progress) · CWNA (in progress)
