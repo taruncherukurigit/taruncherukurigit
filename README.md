@@ -1,7 +1,7 @@
 ### Tarun Cherukuri
 Network engineer · M.Eng Cybersecurity, University of Maryland (3.9 GPA) · CompTIA Network+ and Security+ · AWS Cloud Practitioner · CCNA in progress
 
-I build and break networks on physical hardware in my own lab, then document what actually happened, bugs included. At UMD I maintained a Cisco and Ubiquiti teaching lab network (OSPF, BGP, dual-stack IPv4 and IPv6) as a Graduate Course Assistant and led sessions of a graduate networking course as a Graduate Teaching Assistant.
+I build and break networks on physical hardware in my own lab, then document what actually happened, bugs included. At UMD I designed and maintained a Cisco and Ubiquiti teaching lab network (OSPF, BGP, dual-stack IPv4 and IPv6) as a Graduate Course Assistant and led sessions of a graduate networking course as a Graduate Teaching Assistant.
 
 Open to Network Engineer, NOC, Wireless Engineer and Network Analyst roles.
 
